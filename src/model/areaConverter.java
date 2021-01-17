@@ -1,6 +1,10 @@
 package model;
 
 public class areaConverter {
+    public static void calc(){}
+
+    public static void menu() {
+    }
 /*
     int km2=1000000; //metrów kwadratowych
     int m2=1;
