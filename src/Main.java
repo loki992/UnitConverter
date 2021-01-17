@@ -167,9 +167,9 @@ public class Main {
 
 
     }
-        public static void calc(double unitToMeter, double meterToOutpuUnit, double inputAmount, String shortUnit, String shortOutputUnit){
+        public static void calc(double unitToBasicUnit, double basicUnitToOutpuUnit, double inputAmount, String shortUnit, String shortOutputUnit){
 
-        double wynik=(inputAmount*unitToMeter)*meterToOutpuUnit;
+        double wynik=(inputAmount*unitToBasicUnit)*basicUnitToOutpuUnit;
 
 
             System.out.println("Wprowadzono: "+inputAmount+shortUnit+", ");
